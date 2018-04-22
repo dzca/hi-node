@@ -4,7 +4,7 @@ Lab app to use in azure deploy. we create two release branch v1.0 and v1.1, to t
 - v1.0 will display hi azure 1.0 (prod)
 - v1.1 will display hi azure 1.1 (uat)
 
-## git
+## git change
 
 ### [1] create branches
 

@@ -23,7 +23,7 @@ app.use(favicon(__dirname + '/favicon.ico'));
 
 
 app.use('/hi', (req, res) => {
-  res.status(200).send('Hi Azure 1.0')
+  res.status(200).send('Hi Azure 1.1')
 });
 //=======================
 //catch 404 and forward to error handler
