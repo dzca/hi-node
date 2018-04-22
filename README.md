@@ -10,11 +10,16 @@ Lab app to use in azure deploy. we create two release branch v1.0 and v1.1, to t
 
 ```
 - create a branch from master
-git checkout -b <branch>
+git checkout -b v1.0
+git commit -a -m 'added branch v1.0'
 
 - push local branch to remote
-git push -u origin <branch>
+git push -u origin v1.0
 
 - list branches
-$ git branch -a
+git branch -a
+
+- merge v1.1 to master
+git checkout master
+git merge v1.1
 ```
