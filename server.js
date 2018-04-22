@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(favicon(__dirname + '/favicon.ico'));
 
 
-app.use('/hi', (req, res) => {
+app.use('/', (req, res) => {
   res.status(200).send('Hi Azure 1.1')
 });
 //=======================
