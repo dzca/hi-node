@@ -1,0 +1,21 @@
+{
+  "name": "hi-node",
+  "version": "1.0.0",
+  "description": "node express app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "test"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "dike zhang",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "serve-favicon": "^2.3.0"
+  }
+}
