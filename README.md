@@ -6,8 +6,15 @@ Lab app to use in azure deploy. we create two release branch v1.0 and v1.1, to t
 
 ## git
 
-### [1]create branches
+### [1] create branches
 
 ```
+- create a branch from master
+git checkout -b <branch>
 
+- push local branch to remote
+git push -u origin <branch>
+
+- list branches
+$ git branch -a
 ```
